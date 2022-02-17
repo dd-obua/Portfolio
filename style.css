@@ -16,30 +16,36 @@ body {
   margin: 0 auto;
 }
 
-header {
+nav {
   display: flex;
-  width: 375px;
-  flex-basis: 90%;
   flex-direction: row;
-  flex-grow: 1;
   justify-content: space-between;
-  justify-items: center;
-  padding: 20px 40px 0 30px;
+  align-items: center;
+  margin: 0 30px 0 20px;
+  padding: 10px;
 }
 
 header img {
+  margin-top: 15px;
   width: 16px;
   height: 12px;
 }
 
+header a {
+  text-decoration: none;
+  color: #28352f;
+}
+
 #welcome {
+  display: block;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   margin-top: 20px;
+  color: #28352f;
 }
 
-main {
+.content {
   background-image: url("images/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   padding-top: 55px;
@@ -47,10 +53,11 @@ main {
 }
 
 .introduction {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 52px;
-  padding-bottom: 34px;
+  padding: 5px;
+  margin: 5px;
 }
 
 #name {
@@ -67,13 +74,14 @@ main {
   color: #172b4d;
   font-size: 20px;
   line-height: 32px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .social {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 ul li {
