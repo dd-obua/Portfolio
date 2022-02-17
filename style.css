@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #e5e5e5;
+}
+
+.container {
+  background-color: #fff;
+  width: 375px;  
+  height: 640px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  width: 375px;  
+  flex-basis: 90%;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-top: 22px;
+  justify-items: center;
+  padding: 20px 40px 0 30px;
+}
+
+header img {
+  width: 16px;
+  height: 12px;
+}
+
+#welcome {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 20;
+}
+
+main {
+  background-image: url('images/header-illsutration-mobile.svg');
+  background-repeat: no-repeat;
+  padding-top: 55px;  
+  text-align: center;
+}
+
+.introduction {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  padding-bottom: 34px;
+}
+
+#name {
+  color: #172b4d;
+}
+
+#profession {
+  color: #36b37e;
+}
+
+.about-me {
+  max-width: 320px;
+  margin: 0 auto;
+  color: #172b4d;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 15px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer li {
+  list-style: none;
+}
